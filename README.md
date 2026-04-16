@@ -118,11 +118,3 @@ npm run start
   name: string;
 }
 ```
-
-## Что можно улучшить
-
-- синхронизация фильтров с query params
-- серверная пагинация
-- optimistic update для смены статуса
-- unit/integration тесты
-- Storybook для UI-компонентов
