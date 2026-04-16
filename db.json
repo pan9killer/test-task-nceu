@@ -1,0 +1,117 @@
+{
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Подготовить MVP для нового клиента",
+      "description": "Собрать требования, проверить API и подготовить первый демо-сценарий.",
+      "status": "inProgress",
+      "priority": "high",
+      "deadline": "2026-04-10",
+      "tags": [
+        "tag-1",
+        "tag-3"
+      ],
+      "createdAt": "2026-04-01T10:00:00.000Z",
+      "updatedAt": "2026-04-05T11:30:00.000Z"
+    },
+    {
+      "id": "task-2",
+      "title": "Обновить документацию проекта",
+      "description": "Добавить раздел по запуску локального окружения и описанию архитектуры.",
+      "status": "todo",
+      "priority": "medium",
+      "deadline": "2026-04-15",
+      "tags": [
+        "tag-2"
+      ],
+      "createdAt": "2026-04-02T09:20:00.000Z",
+      "updatedAt": "2026-04-02T09:20:00.000Z"
+    },
+    {
+      "id": "task-3",
+      "title": "Проверить баги после релиза",
+      "description": "Пройтись по списку критических багов и обновить статусы тикетов.",
+      "status": "done",
+      "priority": "high",
+      "deadline": "2026-04-04",
+      "tags": [
+        "tag-1",
+        "tag-4"
+      ],
+      "createdAt": "2026-03-28T08:40:00.000Z",
+      "updatedAt": "2026-04-04T18:00:00.000Z"
+    },
+    {
+      "id": "task-4",
+      "title": "Подготовить план спринта",
+      "description": "Согласовать задачи на следующую итерацию с командой разработки.",
+      "status": "todo",
+      "priority": "low",
+      "deadline": "2026-04-03",
+      "tags": [
+        "tag-2",
+        "tag-3"
+      ],
+      "createdAt": "2026-03-30T12:00:00.000Z",
+      "updatedAt": "2026-04-01T08:00:00.000Z"
+    },
+    {
+      "id": "dS-6TCRiqIM",
+      "title": "test1",
+      "description": "test",
+      "status": "todo",
+      "priority": "low",
+      "deadline": "2026-04-17",
+      "tags": [
+        "tag-1"
+      ],
+      "createdAt": "2026-04-16T10:11:50.789Z",
+      "updatedAt": "2026-04-16T10:11:50.789Z"
+    },
+    {
+      "id": "PqXaDvHKdn0",
+      "title": "fdsffds",
+      "description": "dsfs",
+      "status": "todo",
+      "priority": "medium",
+      "deadline": "2026-04-17",
+      "tags": [
+        "tag-1"
+      ],
+      "createdAt": "2026-04-16T10:12:16.712Z",
+      "updatedAt": "2026-04-16T10:12:16.712Z"
+    },
+    {
+      "id": "qyVDY1s6rnk",
+      "title": "gfdsgfds",
+      "description": "fdsgfdsgfdsg",
+      "status": "todo",
+      "priority": "medium",
+      "deadline": "2026-12-12",
+      "tags": [
+        "tag-1"
+      ],
+      "createdAt": "2026-04-16T10:12:40.491Z",
+      "updatedAt": "2026-04-16T10:12:40.491Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": "tag-1",
+      "name": "frontend"
+    },
+    {
+      "id": "tag-2",
+      "name": "docs"
+    },
+    {
+      "id": "tag-3",
+      "name": "priority"
+    },
+    {
+      "id": "tag-4",
+      "name": "bugfix"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
